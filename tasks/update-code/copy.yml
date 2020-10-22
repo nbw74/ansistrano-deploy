@@ -8,3 +8,4 @@
   copy:
     src: "{{ ansistrano_deploy_from }}"
     dest: "{{ ansistrano_release_path.stdout }}"
+    remote_src: "{{ ansistrano_copy_remote_src }}"
